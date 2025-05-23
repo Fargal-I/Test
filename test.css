@@ -90,8 +90,8 @@ h6 {
 
 @font-face {
   font-family: "Gilroy";
-  src: url("fonts/10177.eot");
-  src: local("☺"), url("fonts/10177.woff") format("woff"), url("fonts/10177.ttf") format("truetype"), url("fonts/10177.svg") format("svg");
+  src: url("10177.eot");
+  src: local("☺"), url("10177.woff") format("woff"), url("10177.ttf") format("truetype"), url("10177.svg") format("svg");
   font-weight: 500;
   font-style: normal;
 }
