@@ -36,7 +36,7 @@ for (let index = 0; index < alertButtons.length; index++) {
 	const alertButton = alertButtons[index];
 	alertButton.addEventListener("click", function (e) {
 		alertButton.parentElement.classList.add('hidden');
-		alert('Это шутка?');
+		alert('Хах,значит варианта лучше не нашлось? 🙃');
 	});
 }
 
@@ -155,7 +155,7 @@ if (q6.length > 0) {
 		const q6button = q6[index];
 		q6button.addEventListener("click", function (e) {
 			result++;
-			popupTitle.textContent = 'Последние годы в игры почти не играю, но до 16 обожал стратегии. Намного реже играл в шутеры или ролевые.А насчёт ролевых.. Мы же всё ещё про компьютерные игры говорим? 😄'
+			popupTitle.textContent = 'Последние годы в игры почти не играю, но до 16 обожал стратегии. Намного реже играл в шутеры.А насчёт ролевых.. Мы же всё ещё про компьютерные игры говорим? 😄'
 		});
 	}
 }
@@ -204,7 +204,7 @@ const axaxa = document.querySelector('.axaxa');
 if (axaxa) {
 	axaxa.addEventListener("click", function (e) {
 		axaxa.parentElement.classList.add('hidden');
-		alert('То есть варианта лучше не нашлось? 🙃')
+		alert('Лол')
 	});
 }
 
