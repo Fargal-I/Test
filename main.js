@@ -164,7 +164,8 @@ const like = document.querySelector('.like');
 if (like) {
 	like.addEventListener("click", function (e) {
 		result++;
-		popupTitle.textContent = 'Ты точно посмотришь, этот вариант, надо придумать что-то пооригинальнее. Или просто уйду от темы, да и я уже в автобусе домой еду, кажется мне в телефон пяляться. Помнишь про фиолетовый?'
+		
+	popupTitle.innerHTML = '<span class="pink">Ты</span> точно посмотришь, этот вариант, надо <br> <span class="pink">Мне</span> придумать что-то пооригинальнее. <br><span class="pink">Нравишься</span>  ли ты мне,как думаешь?'
 	});
 }
 
