@@ -47,7 +47,7 @@ const popupTitle = document.querySelector('.popup__title');
 const fight = document.querySelector('.fight');
 if (fight) {
 	fight.addEventListener("click", function (e) {
-		popupTitle.textContent = 'Драка? Не-а. Шанс получить травму или разборку с полицией. В большинстве случаев я попытаюсь её избежать. "Вне ринга" последний раз дрался в 14, и то, это были "разборки" тупых подростков.'
+		popupTitle.textContent = 'Драка? Не-а. Шанс получить травму или разборку с командованием/полицией. В большинстве случаев я попытаюсь её избежать,если это возможно без потери репутации.Развлекаться лучше на ринге'
 	});
 }
 
